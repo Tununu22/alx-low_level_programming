@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha -Checks for alphabetical order 
- * @c: The character to be checked 
- * Return: 1 alphabetic character or 0 for anything else 
+ * _isalpha -Checks for alphabetical order
+ * @c: The character to be checked
+ * Return: 1 alphabetic character or 0 for anything else
  */
 
 int _isalpha(int c)
