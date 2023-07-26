@@ -1,10 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
+
 /**
- *void prototypes()
- *int prototypes()
- *char prototypes()
+ * This header file has all prototypes from the 0x06. C - More pointers, arrays and strings
  */
 void reverse_array(int *a, int n);
 void print_number(int n);
@@ -16,8 +14,10 @@ char *_strncpy(char *dest, char *src, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
-char *rot13(char *);
-char *infinite_add(char *n1, char *n2, char *r, int size_r);
-char *add_strings(char *n1, char *n2, char *r, int r_index);
 
-#endif /*MAIN_H*/
+char *rot13(char *);
+void print_number(int n);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+void print_buffer(char *b, int size);
+
+#endif
