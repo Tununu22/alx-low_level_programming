@@ -1,29 +1,18 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - print all arguments it receives
- * @argc : number of arguements
- * @argv : always of arguements
- *
- * Return : Always 0 (Success)
- */
+* main - prints all arguments it received
+*@argc: argument count
+*@argv: argument vector
+*Return: returns 0
+*/
 
 int main(int argc, char *argv[])
 {
+		int i;
 
-/*Declaring variables*/
-int count = 0;
+		for (i = 0; i < argc; i++)
+			printf("%s\n", argv[i]);
 
-if (argc > 0)
-{
-/*WHILE - print each arguements*/
-while (count < argc)
-{
-printf("%s\n", argv[count]);
-count++;
+		return (0);
 }
-}
-return (0);
-}
-
